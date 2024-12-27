@@ -8,7 +8,7 @@ app=Flask(__name__)
 @app.route("/")
 def index():
 
-    return {"state":"okey"}
+    return {"state":"okay"}
 
 @app.route("/file",methods=['POST'])
 def fileupload():
